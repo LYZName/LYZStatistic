@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LYZStatistic_Example' do
+  pod 'LYZStatistic', :path => '../'
+
+  target 'LYZStatistic_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
