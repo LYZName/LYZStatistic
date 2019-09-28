@@ -7,6 +7,7 @@
 //
 
 #import "LYZViewController.h"
+#import <LYZStatistic/LYZRootObject.h>
 
 @interface LYZViewController ()
 

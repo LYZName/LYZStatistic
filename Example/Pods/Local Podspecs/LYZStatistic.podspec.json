@@ -1,0 +1,22 @@
+{
+  "name": "LYZStatistic",
+  "version": "0.1.0",
+  "summary": "A short description of LYZStatistic.",
+  "description": "Guide for private pods",
+  "homepage": "https://github.com/流浪者/LYZStatistic",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "流浪者": "1286041054@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/流浪者/LYZStatistic.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LYZStatistic/Classes/**/*"
+}

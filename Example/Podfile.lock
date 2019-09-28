@@ -1,0 +1,16 @@
+PODS:
+  - LYZStatistic (0.1.0)
+
+DEPENDENCIES:
+  - LYZStatistic (from `../`)
+
+EXTERNAL SOURCES:
+  LYZStatistic:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYZStatistic: aa5e8f17a3c4e7ea5f575a832d1cbd1562a92289
+
+PODFILE CHECKSUM: b0e8baf91b975f9d21438c5bb6c6a3cf525f24cc
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,6 @@
+framework module LYZStatistic {
+  umbrella header "LYZStatistic-umbrella.h"
+
+  export *
+  module * { export * }
+}
