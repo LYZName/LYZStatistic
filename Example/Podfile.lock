@@ -1,15 +1,32 @@
 PODS:
-  - StatisticSdk (0.1.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Reachability (3.2)
+  - SAMKeychain (1.5.3)
+  - StatisticSdk (0.1.0):
+    - FMDB (~> 2.7.5)
+    - Reachability (~> 3.2)
+    - SAMKeychain (~> 1.5.3)
 
 DEPENDENCIES:
   - StatisticSdk (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - Reachability
+    - SAMKeychain
 
 EXTERNAL SOURCES:
   StatisticSdk:
     :path: "../"
 
 SPEC CHECKSUMS:
-  StatisticSdk: 0f4e46558ffbbba4194aca684964171bf3d2c38c
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  StatisticSdk: 0339ccc7d8563ac303a9e2e6da9f0e1d6ba4d12c
 
 PODFILE CHECKSUM: e37d2ac32503be91c460475463ee60ad1f686eba
 

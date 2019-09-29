@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   # s.source_files = 'StatisticSdk/Classes/**/*'
   
-  s.vendored_libraries = 'StatisticSdk/Classes/Frameworks/*.{framework}'
+  s.vendored_frameworks = 'StatisticSdk/Classes/Frameworks/*.{framework}'
   s.dependency 'FMDB', '~> 2.7.5'
   s.dependency 'SAMKeychain', '~> 1.5.3'
   s.dependency 'Reachability', '~> 3.2'

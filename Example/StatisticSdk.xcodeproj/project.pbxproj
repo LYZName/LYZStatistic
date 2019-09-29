@@ -37,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04B456C9F168C5EAF580D346 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		0D09D2A3FD8A270DB863083F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		04B456C9F168C5EAF580D346 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0D09D2A3FD8A270DB863083F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0DD4745BBCB11D77939AF015 /* Pods-StatisticSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StatisticSdk_Example.debug.xcconfig"; path = "Target Support Files/Pods-StatisticSdk_Example/Pods-StatisticSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		26406A724E94320B8FCFDF78 /* Pods_StatisticSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StatisticSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FEF0D8937BE6A553E51FC97 /* StatisticSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = StatisticSdk.podspec; path = ../StatisticSdk.podspec; sourceTree = "<group>"; };
+		2FEF0D8937BE6A553E51FC97 /* StatisticSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = StatisticSdk.podspec; path = ../StatisticSdk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3BBEFE7AC8B152D6A0EC48D2 /* Pods-StatisticSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StatisticSdk_Tests.debug.xcconfig"; path = "Target Support Files/Pods-StatisticSdk_Tests/Pods-StatisticSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4180A8F35CD6891713C05884 /* Pods_StatisticSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StatisticSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C3A2378C861D8386A019BE /* Pods-StatisticSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StatisticSdk_Tests.release.xcconfig"; path = "Target Support Files/Pods-StatisticSdk_Tests/Pods-StatisticSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				3BBEFE7AC8B152D6A0EC48D2 /* Pods-StatisticSdk_Tests.debug.xcconfig */,
 				49C3A2378C861D8386A019BE /* Pods-StatisticSdk_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,11 +346,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-StatisticSdk_Example/Pods-StatisticSdk_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/StatisticSdk/StatisticSdk.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StatisticSdk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
