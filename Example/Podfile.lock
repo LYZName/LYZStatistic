@@ -1,0 +1,16 @@
+PODS:
+  - StatisticSdk (0.1.0)
+
+DEPENDENCIES:
+  - StatisticSdk (from `../`)
+
+EXTERNAL SOURCES:
+  StatisticSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StatisticSdk: 0f4e46558ffbbba4194aca684964171bf3d2c38c
+
+PODFILE CHECKSUM: e37d2ac32503be91c460475463ee60ad1f686eba
+
+COCOAPODS: 1.8.1

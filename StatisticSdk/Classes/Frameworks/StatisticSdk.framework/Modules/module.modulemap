@@ -1,0 +1,6 @@
+framework module StatisticSdk {
+  umbrella header "StatisticSdk.h"
+
+  export *
+  module * { export * }
+}

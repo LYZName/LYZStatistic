@@ -30,7 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'StatisticSdk/Classes/**/*'
+  # s.source_files = 'StatisticSdk/Classes/**/*'
+  
+  s.vendored_libraries = 'StatisticSdk/Classes/Frameworks/*.{framework}'
+  s.dependency 'FMDB', '~> 2.7.5'
+  s.dependency 'SAMKeychain', '~> 1.5.3'
+  s.dependency 'Reachability', '~> 3.2'
   
   # s.resource_bundles = {
   #   'StatisticSdk' => ['StatisticSdk/Assets/*.png']
