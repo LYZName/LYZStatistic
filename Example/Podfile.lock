@@ -1,16 +1,33 @@
 PODS:
-  - LYZStatistic (0.1.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - LYZStatistic (0.1.1):
+    - FMDB (~> 2.7.5)
+    - Reachability (~> 3.2)
+    - SAMKeychain (~> 1.5.3)
+  - Reachability (3.2)
+  - SAMKeychain (1.5.3)
 
 DEPENDENCIES:
   - LYZStatistic (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - Reachability
+    - SAMKeychain
 
 EXTERNAL SOURCES:
   LYZStatistic:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LYZStatistic: aa5e8f17a3c4e7ea5f575a832d1cbd1562a92289
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  LYZStatistic: 256e964678fcc846319bf5b9a4e940e1af16136c
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
 
 PODFILE CHECKSUM: b0e8baf91b975f9d21438c5bb6c6a3cf525f24cc
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.1

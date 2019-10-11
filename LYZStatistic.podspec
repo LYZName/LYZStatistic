@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYZStatistic'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of LYZStatistic.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LYZStatistic/Classes/**/*'
+  s.source_files = 'LYZStatistic/Classes/*.{h,m}'
+  
+#  s.vendored_frameworks = 'LYZStatistic/Classes/ThirdParty/*.{framework}'
+  s.dependency 'FMDB', '~> 2.7.5'
+  s.dependency 'SAMKeychain', '~> 1.5.3'
+  s.dependency 'Reachability', '~> 3.2'
   
   # s.resource_bundles = {
   #   'LYZStatistic' => ['LYZStatistic/Assets/*.png']

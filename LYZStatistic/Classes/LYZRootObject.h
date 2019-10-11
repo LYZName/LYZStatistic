@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LYZRootObject : NSObject
 
++ (void)sayHello;
+
 @end
 
 NS_ASSUME_NONNULL_END

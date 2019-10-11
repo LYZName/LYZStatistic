@@ -1,9 +1,9 @@
 {
   "name": "LYZStatistic",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of LYZStatistic.",
   "description": "Guide for private pods",
-  "homepage": "https://github.com/流浪者/LYZStatistic",
+  "homepage": "https://github.com/LYZName/LYZStatistic",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,22 @@
     "流浪者": "1286041054@qq.com"
   },
   "source": {
-    "git": "https://github.com/流浪者/LYZStatistic.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/LYZName/LYZStatistic.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LYZStatistic/Classes/**/*"
+  "source_files": "LYZStatistic/Classes/*.{h,m}",
+  "dependencies": {
+    "FMDB": [
+      "~> 2.7.5"
+    ],
+    "SAMKeychain": [
+      "~> 1.5.3"
+    ],
+    "Reachability": [
+      "~> 3.2"
+    ]
+  }
 }

@@ -8,6 +8,7 @@
 
 #import "LYZViewController.h"
 #import <LYZStatistic/LYZRootObject.h>
+//#import <LYZStatistic/StatisticSdk.h>
 
 @interface LYZViewController ()
 
@@ -19,6 +20,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+//    [[SPStatisticSdk sharedInstance] initSdk:@"http://s.dlgzssf.com/s" productPublicKey:@"lifeadvisor-ios" appleId:@"bf54ebf2e8734af2bc1c55187b6032a4" abtestId:@"1" channelId:1 afDevKey:@"o6XxR94NFNcyL6NTzsUrRG" isLogEnable:true];
+    
+    [LYZRootObject sayHello];
 }
 
 - (void)didReceiveMemoryWarning

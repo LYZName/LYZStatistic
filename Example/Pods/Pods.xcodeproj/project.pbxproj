@@ -7,100 +7,261 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F66A03893375E008A552B80870E4F88 /* Pods-LYZStatistic_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A88233D52DECC50FF3B6424FFE16 /* Pods-LYZStatistic_Example-dummy.m */; };
-		5DDF50DA759184068BACE30B2266A855 /* LYZRootObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D30524B6519D52FB6F49830F73E85473 /* LYZRootObject.m */; };
-		635B81726EC62976FF8E915D29337D88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		6EFD998188BA56D7C683F088E285E760 /* LYZRootObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 751AAB33030857C4179D7896C5BBD2E1 /* LYZRootObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A98472A63082127328A2369378F3D362 /* Pods-LYZStatistic_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0ADA63A4BE65C897906B1D317FCB8E4 /* Pods-LYZStatistic_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD466C633675AC5204E808E860FAAC59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		C069BC19E25FD876361BF2C21D36586C /* LYZStatistic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 447D33CF70CD75E6ED69FEF5136DC3F1 /* LYZStatistic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D054EF7ED6529D741BACDE2F847F535F /* LYZStatistic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 851E35D515D90C5C7D36053BB041522F /* LYZStatistic-dummy.m */; };
-		D748EAF9ED9550188D1383CE68262055 /* Pods-LYZStatistic_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4788E6F16A99978119C8B82292C28A84 /* Pods-LYZStatistic_Tests-dummy.m */; };
-		F8B900A3389D9500D379A7107E2C2E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		FC9AA5EAC524F5FDA9FBCFDD50E35193 /* Pods-LYZStatistic_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DABD368EF6C55371842B2D48E186F39 /* Pods-LYZStatistic_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0370787809FDCBCB15C2D4DD22190732 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3194A9EBD9AA5919AE6307CA8905E8 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		03BF1896EC9BB2BA807B6EA31733CE0E /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BFF6B81BD7A0467132E0F5C08FCA54F /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C93E589E31C5CBCA37586544BEC1005 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABCF6E17986D273705129447498C333 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0CA022FE5CC3F8A1ECC6699F10BF81EE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C55DB32631F92FED5252EEC20822F3D /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0EF874712EFA446F37BE317FA744E9E9 /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3C2F16A231E834CC6DBC29C3E8685C /* SAMKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F72AA9F03EC61C6D857941E0B45811A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = CE2B59D7523FE41BBDA05F51ACC3BE1E /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		103F59094159FD66DFDFA34415661FEC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5A392E118E1B41735ED6A61BB4F70B /* Security.framework */; };
+		219BADA8C55CF72273F5A734AA0E0EF6 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56BB2A0A581B118E987D9C425815399A /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2680355CBA8DF8018650C425EEB48545 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D39C2D80C507502D7E194D9DF95E7F /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2F1B1D765D6DACEB0C4B838E2C19A3DE /* LYZRootObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 751AAB33030857C4179D7896C5BBD2E1 /* LYZRootObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32BB549C41D99703004B92995896F1C7 /* Pods-LYZStatistic_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C47679A769023F5545334EF2F3B7AF /* Pods-LYZStatistic_Tests-dummy.m */; };
+		37296B38A55A40BEF65ECFC9B0527D8E /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1D78C84894EDE57A005D5F7FF2901E /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FAC5E2B11C71F52A229F715168D5CD0 /* Pods-LYZStatistic_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59195E4D86AF02F1160AB0D9398A84B5 /* Pods-LYZStatistic_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		488C55A67714732E1E46E51D47ED33A7 /* Pods-LYZStatistic_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF617AF13C58D3A215CC1BA09E496C0E /* Pods-LYZStatistic_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B38C5C798B25817CF768AA0848C1BA1 /* SAMKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AADF2ADC275559FC973BA30C6DD739 /* SAMKeychain-dummy.m */; };
+		538F74CC22D0D13E9D79AC3ECC6DFFE7 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CECE888F0706A3F779B62C9389270A3E /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		634E11CA470DB7ADB8F054E30E042B25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F25755F9F60A7DE28A324CDD6FC76BE /* Foundation.framework */; };
+		6C58288FB8A294C16676BF03E51AA34D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CCA9A3C5BD04939601150BC94C3E0 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		70B13CAA3CF75D527732EAF4E55B8746 /* SAMKeychain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB0557F9E1104FBF0049B6ADCD29028 /* SAMKeychain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7394E123FBD9832A5D6FD726D5D9470C /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EC09012C8C95BD20D26535F64DB68B /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77CD9DF9CCC3DA4A6C4CAE6765609D18 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 610477EB609525A49AD16D25B63B79DC /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4E0D91FE60904C9FB50F6D447B8A30 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D904A81F7525C88E8EF1D64971838393 /* FMDB-dummy.m */; };
+		80DDDD4D1F2E6E175DE8D0825A8A512C /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C71BEC0AFF1184C71C3DAD35D343B2 /* Reachability-dummy.m */; };
+		856A75E9941F5735435FB8C418DA1E1D /* LYZRootObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D30524B6519D52FB6F49830F73E85473 /* LYZRootObject.m */; };
+		87D8E0F4AA4A955494030C81C0294DF9 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98BABE1C385AC0237865CCD997C5CB7 /* FMDB.framework */; };
+		8A6BF90870F7F33B917DD5C747C36DC3 /* LYZStatistic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A191DB030AA950BCA308DAA9804102D /* LYZStatistic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9707760741C6562686A2B87D086F354F /* Reachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB99C93673204B4F0DE653B9D4B760B /* Reachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D7BD63344392A9095BD21154AA2F227 /* SAMKeychain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 814C2BB38461370131F51FAF4E646296 /* SAMKeychain.bundle */; };
+		9E9FE2C615F59EB8FC8218CEE722AA0D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E93E0F8302CA5551DC32B1C4DC637B3D /* Reachability.m */; };
+		A422B1AB93922580BCADC1BC3F5FB138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F25755F9F60A7DE28A324CDD6FC76BE /* Foundation.framework */; };
+		A92CDCFE2DC0D002DE1F208C2FEAB545 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A1D00D45195804B36D024A3ED79B16 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1150172BC123405D859CF4261300753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F25755F9F60A7DE28A324CDD6FC76BE /* Foundation.framework */; };
+		B5FF2E7824F1E6ED208A3CA6727F2497 /* Pods-LYZStatistic_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6CE46FA15D8984E3FB073BF8BB9501 /* Pods-LYZStatistic_Example-dummy.m */; };
+		BB7ECF4DBE8D4BB38E6F2F08C326922A /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = E00CF645E6B0A42ADBE2D8C74CB4D718 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1ADB3027A24307F13F5B9A1D072BA4D /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BDCCB628EB357F67BAD853E9D98537 /* SAMKeychain.framework */; };
+		D51BB1A5270A59296EB38D95756D6A91 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8459DA32F79DF2C5E6DAED979D7254 /* Reachability.framework */; };
+		DDF94AB62437DC5DF1097826FDD659B8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F813B31D10D0BD662A4839B2ED84B3D /* SystemConfiguration.framework */; };
+		DFC3143398C4C18081F28F176D101C18 /* LYZStatistic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B28E3253FA95E1E9C86635A679F230B7 /* LYZStatistic-dummy.m */; };
+		E1AB089897B500D2852EE377B61A06CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F25755F9F60A7DE28A324CDD6FC76BE /* Foundation.framework */; };
+		EA4AAA0A687CB05414103CFF92DC35AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F25755F9F60A7DE28A324CDD6FC76BE /* Foundation.framework */; };
+		F817BB27DF3D6AACA1943D4848E1523A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F25755F9F60A7DE28A324CDD6FC76BE /* Foundation.framework */; };
+		F8BC228314DF9A9A67FCEC485324414D /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = AC795E08F90563DD41048BA84A649FD9 /* SAMKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FDD8729FB9BBE45B90107CA26BE5804B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DDDD3C02213D89583150EEC3CEA0B9 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		57934089E40DCF2849FB6340CA8EC223 /* PBXContainerItemProxy */ = {
+		522F0C1B41B022E03E1359AC3ED1491B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D403795BC6BDF2678BFAD8E740225653;
+			remoteGlobalIDString = 5572D14DECB5A676C1B31B30A3BA7F10;
+			remoteInfo = SAMKeychain;
+		};
+		657D0F687161258B67E536CF2E37F27D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5572D14DECB5A676C1B31B30A3BA7F10;
+			remoteInfo = SAMKeychain;
+		};
+		676BE4913B58AE3899D244FAE831578D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
+		83CBFFF31A19685705C3B6B0154F9DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A05402800739B38A26BCA09B6DA086F6;
+			remoteInfo = "Pods-LYZStatistic_Example";
+		};
+		92CFD22530DE0162C062E5AC7F5EEFD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20A04F690C8428A852ADCC3930F9F025;
 			remoteInfo = LYZStatistic;
 		};
-		B050CBDD06A2B8012DDB44E741900A0B /* PBXContainerItemProxy */ = {
+		9EFE60974688B6A12D3720FF60FC8FF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3FACE7071BF3CB7971D185A18FC17D89;
-			remoteInfo = "Pods-LYZStatistic_Example";
+			remoteGlobalIDString = CAA047C0F5E4106F3904E8497FA17F97;
+			remoteInfo = Reachability;
+		};
+		B6DBBE0A1668B1463E67A9CD5E5EB66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
+		E7763E3B1E824F84A7351CE4C8D00040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA047C0F5E4106F3904E8497FA17F97;
+			remoteInfo = Reachability;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		120239E1CEBBB0C2A792FBC5AAD95303 /* Pods-LYZStatistic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYZStatistic_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		15B22C4A2CC35FAAC8185688690CCF54 /* Pods-LYZStatistic_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYZStatistic_Tests.modulemap"; sourceTree = "<group>"; };
-		1D4FDA4C6C00918D1AF10BB01809ED62 /* Pods-LYZStatistic_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYZStatistic_Example.release.xcconfig"; sourceTree = "<group>"; };
+		04F8690DE11E6790DF4AF100DBED266C /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		0A3C2F16A231E834CC6DBC29C3E8685C /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
+		0A5A392E118E1B41735ED6A61BB4F70B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		0C3194A9EBD9AA5919AE6307CA8905E8 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		0CB99C93673204B4F0DE653B9D4B760B /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
+		1C8459DA32F79DF2C5E6DAED979D7254 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA88BFE029914199615E32DFC15AB6C /* LYZStatistic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYZStatistic.xcconfig; sourceTree = "<group>"; };
+		1F25755F9F60A7DE28A324CDD6FC76BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		221C0EA62C60D56586E168B1620F057E /* Pods_LYZStatistic_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYZStatistic_Example.framework; path = "Pods-LYZStatistic_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C71BEC0AFF1184C71C3DAD35D343B2 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		24DCFCD257C0FEE234FC774171A6B7AB /* LYZStatistic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LYZStatistic.framework; path = LYZStatistic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		250CCA9A3C5BD04939601150BC94C3E0 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		28F91022592DE6FB2C1442DA30BE4FDA /* SAMKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-prefix.pch"; sourceTree = "<group>"; };
+		2CAF4819F872DF1B3D3A8F96D7C04DC9 /* Pods-LYZStatistic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYZStatistic_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2F0482079F2A8A8C07F93710478538ED /* LYZStatistic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYZStatistic.modulemap; sourceTree = "<group>"; };
+		310316DAE864CB94566198A0BC876A31 /* SAMKeychain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SAMKeychain-Info.plist"; sourceTree = "<group>"; };
 		384B5CD773BD752D130BF08574E09376 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		447D33CF70CD75E6ED69FEF5136DC3F1 /* LYZStatistic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYZStatistic-umbrella.h"; sourceTree = "<group>"; };
-		45B3A475E2F9177512FB2D4CD65FE931 /* LYZStatistic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYZStatistic.xcconfig; sourceTree = "<group>"; };
-		4732AA3CD3B2D5C538370B4F278407D7 /* Pods-LYZStatistic_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYZStatistic_Example-Info.plist"; sourceTree = "<group>"; };
-		4788E6F16A99978119C8B82292C28A84 /* Pods-LYZStatistic_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYZStatistic_Tests-dummy.m"; sourceTree = "<group>"; };
-		5669E9915D2DB37F63144383FFA3C9A3 /* Pods-LYZStatistic_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYZStatistic_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DBE60EB635B3BD16AE462DC433D2C56 /* Pods-LYZStatistic_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYZStatistic_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3FC1526889B9471FFFD7B87329F854CA /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
+		3FF4EF520485C4DD16643C0FAD66CD49 /* Pods-LYZStatistic_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYZStatistic_Example.modulemap"; sourceTree = "<group>"; };
+		400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D77DD83C65E0CB28CF3F1C7729DB31 /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		45D671982DE19E06371AC13653F8F6C9 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		4B8A3EDAFF8410904F078F48594D05FA /* SAMKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SAMKeychain.modulemap; sourceTree = "<group>"; };
+		4F813B31D10D0BD662A4839B2ED84B3D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		54C47679A769023F5545334EF2F3B7AF /* Pods-LYZStatistic_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYZStatistic_Tests-dummy.m"; sourceTree = "<group>"; };
+		55045FCB3BD1A33AAD09AFF7A74C0287 /* SAMKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.xcconfig; sourceTree = "<group>"; };
+		56BB2A0A581B118E987D9C425815399A /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
+		59195E4D86AF02F1160AB0D9398A84B5 /* Pods-LYZStatistic_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYZStatistic_Example-umbrella.h"; sourceTree = "<group>"; };
 		5E4751FC6FEDB962BA2DD499B3C2CE90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		66A4A88233D52DECC50FF3B6424FFE16 /* Pods-LYZStatistic_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYZStatistic_Example-dummy.m"; sourceTree = "<group>"; };
-		6E37F071BB4AD639F333E9FADB92B8E7 /* Pods-LYZStatistic_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYZStatistic_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		701C4410D70CEC8A1DA979B1115EC30D /* Pods-LYZStatistic_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYZStatistic_Example.modulemap"; sourceTree = "<group>"; };
+		5EDAD5F94D4760CBADFD8BECF33A47CE /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
+		610477EB609525A49AD16D25B63B79DC /* SAMKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychainQuery.h; path = Sources/SAMKeychainQuery.h; sourceTree = "<group>"; };
+		612028EAFF1C2054A0EB821A9C9F2440 /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAMKeychain.framework; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68AADF2ADC275559FC973BA30C6DD739 /* SAMKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain-dummy.m"; sourceTree = "<group>"; };
+		68C1DA68E00DE63FF9B86AB0CA4838B5 /* Pods-LYZStatistic_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYZStatistic_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6BF8940DCD7C44FD03211486A3DC2F8D /* Pods-LYZStatistic_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYZStatistic_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6CD0D1DE7D189749C4842519FB42E968 /* Pods-LYZStatistic_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYZStatistic_Example-Info.plist"; sourceTree = "<group>"; };
 		751AAB33030857C4179D7896C5BBD2E1 /* LYZRootObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYZRootObject.h; path = LYZStatistic/Classes/LYZRootObject.h; sourceTree = "<group>"; };
+		76BDCCB628EB357F67BAD853E9D98537 /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7939312D0364A753245A6B8ED3B12A29 /* Pods_LYZStatistic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYZStatistic_Tests.framework; path = "Pods-LYZStatistic_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A80C59675484A3FCB2E369130ABBA66 /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reachability.modulemap; sourceTree = "<group>"; };
+		7ABCF6E17986D273705129447498C333 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		7B41B1E9D8DAD6F860AB85B44DB7EE10 /* LYZStatistic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LYZStatistic.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7F289B473F50A006913E6D670783E3C1 /* LYZStatistic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LYZStatistic.framework; path = LYZStatistic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		851E35D515D90C5C7D36053BB041522F /* LYZStatistic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYZStatistic-dummy.m"; sourceTree = "<group>"; };
-		85B5239256EE8E7B91076D9A3ACC3F29 /* Pods-LYZStatistic_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYZStatistic_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8ACD1C5B58A8F5F77CCD31DAA8417B88 /* Pods-LYZStatistic_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYZStatistic_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8DABD368EF6C55371842B2D48E186F39 /* Pods-LYZStatistic_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYZStatistic_Example-umbrella.h"; sourceTree = "<group>"; };
-		90825C930F7B82A0AAEDE83069216DBD /* LYZStatistic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYZStatistic.modulemap; sourceTree = "<group>"; };
+		7BFF6B81BD7A0467132E0F5C08FCA54F /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		814C2BB38461370131F51FAF4E646296 /* SAMKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMKeychain.bundle; path = Support/SAMKeychain.bundle; sourceTree = "<group>"; };
+		841FC5F42813D16D58A9ACCD7FC05E02 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		86D39C2D80C507502D7E194D9DF95E7F /* SAMKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychainQuery.m; path = Sources/SAMKeychainQuery.m; sourceTree = "<group>"; };
+		8A191DB030AA950BCA308DAA9804102D /* LYZStatistic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYZStatistic-umbrella.h"; sourceTree = "<group>"; };
+		95F63A5ED2EA5433A15372DB27AB1DA5 /* Pods-LYZStatistic_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYZStatistic_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		991FDD6FFC7D522E35410F7574C46243 /* Pods-LYZStatistic_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYZStatistic_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C55DB32631F92FED5252EEC20822F3D /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DF120588782583C2EE17FA7375A5420 /* Pods-LYZStatistic_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYZStatistic_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A21A990D2FE021DBABDDC4105B342676 /* LYZStatistic-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYZStatistic-Info.plist"; sourceTree = "<group>"; };
-		A735B968DEC52C70F3323B29B3C1C1BD /* Pods-LYZStatistic_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYZStatistic_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B1264D8F4A8AC0F6BC4E1D882B2EDC07 /* Pods-LYZStatistic_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYZStatistic_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A3A1D00D45195804B36D024A3ED79B16 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC795E08F90563DD41048BA84A649FD9 /* SAMKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychain.m; path = Sources/SAMKeychain.m; sourceTree = "<group>"; };
+		B28E3253FA95E1E9C86635A679F230B7 /* LYZStatistic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYZStatistic-dummy.m"; sourceTree = "<group>"; };
+		B2A24B1D53A4E6659CD8F57A7CD7ED61 /* Pods-LYZStatistic_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYZStatistic_Tests.modulemap"; sourceTree = "<group>"; };
+		B7DDDD3C02213D89583150EEC3CEA0B9 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		C40BD357AC92C343272F1C7D7FF09C42 /* Pods-LYZStatistic_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYZStatistic_Tests-Info.plist"; sourceTree = "<group>"; };
+		C62A7879C9F91F797CEC84314FC76F6E /* LYZStatistic-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYZStatistic-Info.plist"; sourceTree = "<group>"; };
+		C734609E35FBE9CF0A49150F23043361 /* Pods-LYZStatistic_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYZStatistic_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CCB8C0F52022704F046CB47FB37DB35B /* Reachability-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Reachability-Info.plist"; sourceTree = "<group>"; };
+		CE2B59D7523FE41BBDA05F51ACC3BE1E /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		CECE888F0706A3F779B62C9389270A3E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
 		D30524B6519D52FB6F49830F73E85473 /* LYZRootObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYZRootObject.m; path = LYZStatistic/Classes/LYZRootObject.m; sourceTree = "<group>"; };
-		D8C5EA4D704EEDB15520F491086E60FF /* LYZStatistic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYZStatistic-prefix.pch"; sourceTree = "<group>"; };
-		DE9AE4F1EA6558C092BE8169C2EC4DA0 /* Pods_LYZStatistic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYZStatistic_Tests.framework; path = "Pods-LYZStatistic_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0ADA63A4BE65C897906B1D317FCB8E4 /* Pods-LYZStatistic_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYZStatistic_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F5492AE61FBA82BDE43960B6157FA94F /* Pods_LYZStatistic_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYZStatistic_Example.framework; path = "Pods-LYZStatistic_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F59AF68CF6C1A95D0C91921C0ACC5ED2 /* Pods-LYZStatistic_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYZStatistic_Tests-Info.plist"; sourceTree = "<group>"; };
+		D339B8AD0C3E140C731558B8E3110EA3 /* LYZStatistic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYZStatistic-prefix.pch"; sourceTree = "<group>"; };
+		D340A5F16A2EFA3C824097C5941292EC /* Pods-LYZStatistic_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYZStatistic_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D904A81F7525C88E8EF1D64971838393 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		D98BABE1C385AC0237865CCD997C5CB7 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB0557F9E1104FBF0049B6ADCD29028 /* SAMKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-umbrella.h"; sourceTree = "<group>"; };
+		DE1D78C84894EDE57A005D5F7FF2901E /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		DF6CE46FA15D8984E3FB073BF8BB9501 /* Pods-LYZStatistic_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYZStatistic_Example-dummy.m"; sourceTree = "<group>"; };
+		E00CF645E6B0A42ADBE2D8C74CB4D718 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		E93E0F8302CA5551DC32B1C4DC637B3D /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F0EC09012C8C95BD20D26535F64DB68B /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		F891CEC8E55501138EBD9CE187BFF1B2 /* Pods-LYZStatistic_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYZStatistic_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF617AF13C58D3A215CC1BA09E496C0E /* Pods-LYZStatistic_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYZStatistic_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8155066F7A3D5D6C49F230797030A579 /* Frameworks */ = {
+		37BFF695AAA8971C24E3AAE745EF456E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				635B81726EC62976FF8E915D29337D88 /* Foundation.framework in Frameworks */,
+				EA4AAA0A687CB05414103CFF92DC35AB /* Foundation.framework in Frameworks */,
+				103F59094159FD66DFDFA34415661FEC /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91E52E11C1BE4BC278AE95B2833BCF20 /* Frameworks */ = {
+		41E857D338F96D89E73F6E28241F0A8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD466C633675AC5204E808E860FAAC59 /* Foundation.framework in Frameworks */,
+				634E11CA470DB7ADB8F054E30E042B25 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D816648775F69621A61958E08E35866C /* Frameworks */ = {
+		6A317D07C9498CBC80B8868E714E3695 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8B900A3389D9500D379A7107E2C2E81 /* Foundation.framework in Frameworks */,
+				E1AB089897B500D2852EE377B61A06CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADEF34E7137205A6ABD507576F0A734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A422B1AB93922580BCADC1BC3F5FB138 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C47FD753D7953A849A797AB436C720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D8E0F4AA4A955494030C81C0294DF9 /* FMDB.framework in Frameworks */,
+				B1150172BC123405D859CF4261300753 /* Foundation.framework in Frameworks */,
+				D51BB1A5270A59296EB38D95756D6A91 /* Reachability.framework in Frameworks */,
+				C1ADB3027A24307F13F5B9A1D072BA4D /* SAMKeychain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A740751E83EF79A4E6A6F4E9F1CC35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F817BB27DF3D6AACA1943D4848E1523A /* Foundation.framework in Frameworks */,
+				DDF94AB62437DC5DF1097826FDD659B8 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28D1D4B97D25D783035986B73B84348D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EDAD5F94D4760CBADFD8BECF33A47CE /* FMDB.modulemap */,
+				04F8690DE11E6790DF4AF100DBED266C /* FMDB.xcconfig */,
+				D904A81F7525C88E8EF1D64971838393 /* FMDB-dummy.m */,
+				3FC1526889B9471FFFD7B87329F854CA /* FMDB-Info.plist */,
+				841FC5F42813D16D58A9ACCD7FC05E02 /* FMDB-prefix.pch */,
+				56BB2A0A581B118E987D9C425815399A /* FMDB-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
 		2F467F03E0871A6708B5BF3AC39BAC24 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,78 +280,152 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		45E9DEEF0E97257BF80A621993677176 /* Pods-LYZStatistic_Example */ = {
+		4C45F7FF3D92E0E4CAB63039593B2114 /* SAMKeychain */ = {
 			isa = PBXGroup;
 			children = (
-				701C4410D70CEC8A1DA979B1115EC30D /* Pods-LYZStatistic_Example.modulemap */,
-				6E37F071BB4AD639F333E9FADB92B8E7 /* Pods-LYZStatistic_Example-acknowledgements.markdown */,
-				B1264D8F4A8AC0F6BC4E1D882B2EDC07 /* Pods-LYZStatistic_Example-acknowledgements.plist */,
-				66A4A88233D52DECC50FF3B6424FFE16 /* Pods-LYZStatistic_Example-dummy.m */,
-				8ACD1C5B58A8F5F77CCD31DAA8417B88 /* Pods-LYZStatistic_Example-frameworks.sh */,
-				4732AA3CD3B2D5C538370B4F278407D7 /* Pods-LYZStatistic_Example-Info.plist */,
-				8DABD368EF6C55371842B2D48E186F39 /* Pods-LYZStatistic_Example-umbrella.h */,
-				120239E1CEBBB0C2A792FBC5AAD95303 /* Pods-LYZStatistic_Example.debug.xcconfig */,
-				1D4FDA4C6C00918D1AF10BB01809ED62 /* Pods-LYZStatistic_Example.release.xcconfig */,
+				0A3C2F16A231E834CC6DBC29C3E8685C /* SAMKeychain.h */,
+				AC795E08F90563DD41048BA84A649FD9 /* SAMKeychain.m */,
+				610477EB609525A49AD16D25B63B79DC /* SAMKeychainQuery.h */,
+				86D39C2D80C507502D7E194D9DF95E7F /* SAMKeychainQuery.m */,
+				80C8EC0287038B1226EDA12137BE8290 /* Resources */,
+				D7E054C8C55962C3C0AE18F5B4BDC340 /* Support Files */,
 			);
-			name = "Pods-LYZStatistic_Example";
-			path = "Target Support Files/Pods-LYZStatistic_Example";
+			name = SAMKeychain;
+			path = SAMKeychain;
 			sourceTree = "<group>";
 		};
-		5A152BFDF6C8EE5CF600D6D57B58D3AF /* Pods-LYZStatistic_Tests */ = {
+		4D7C70809E235542C8810755DECE4A83 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				15B22C4A2CC35FAAC8185688690CCF54 /* Pods-LYZStatistic_Tests.modulemap */,
-				A735B968DEC52C70F3323B29B3C1C1BD /* Pods-LYZStatistic_Tests-acknowledgements.markdown */,
-				5669E9915D2DB37F63144383FFA3C9A3 /* Pods-LYZStatistic_Tests-acknowledgements.plist */,
-				4788E6F16A99978119C8B82292C28A84 /* Pods-LYZStatistic_Tests-dummy.m */,
-				F59AF68CF6C1A95D0C91921C0ACC5ED2 /* Pods-LYZStatistic_Tests-Info.plist */,
-				F0ADA63A4BE65C897906B1D317FCB8E4 /* Pods-LYZStatistic_Tests-umbrella.h */,
-				9DF120588782583C2EE17FA7375A5420 /* Pods-LYZStatistic_Tests.debug.xcconfig */,
-				85B5239256EE8E7B91076D9A3ACC3F29 /* Pods-LYZStatistic_Tests.release.xcconfig */,
-			);
-			name = "Pods-LYZStatistic_Tests";
-			path = "Target Support Files/Pods-LYZStatistic_Tests";
-			sourceTree = "<group>";
-		};
-		78A68D8592DE49926B74057F23DE12BA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7F289B473F50A006913E6D670783E3C1 /* LYZStatistic.framework */,
-				F5492AE61FBA82BDE43960B6157FA94F /* Pods_LYZStatistic_Example.framework */,
-				DE9AE4F1EA6558C092BE8169C2EC4DA0 /* Pods_LYZStatistic_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8293B5DD3F32AA9A31586989E7BB9E62 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				45E9DEEF0E97257BF80A621993677176 /* Pods-LYZStatistic_Example */,
-				5A152BFDF6C8EE5CF600D6D57B58D3AF /* Pods-LYZStatistic_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9475D31B71AE114E1E70414FDB40011E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				90825C930F7B82A0AAEDE83069216DBD /* LYZStatistic.modulemap */,
-				45B3A475E2F9177512FB2D4CD65FE931 /* LYZStatistic.xcconfig */,
-				851E35D515D90C5C7D36053BB041522F /* LYZStatistic-dummy.m */,
-				A21A990D2FE021DBABDDC4105B342676 /* LYZStatistic-Info.plist */,
-				D8C5EA4D704EEDB15520F491086E60FF /* LYZStatistic-prefix.pch */,
-				447D33CF70CD75E6ED69FEF5136DC3F1 /* LYZStatistic-umbrella.h */,
+				2F0482079F2A8A8C07F93710478538ED /* LYZStatistic.modulemap */,
+				1CA88BFE029914199615E32DFC15AB6C /* LYZStatistic.xcconfig */,
+				B28E3253FA95E1E9C86635A679F230B7 /* LYZStatistic-dummy.m */,
+				C62A7879C9F91F797CEC84314FC76F6E /* LYZStatistic-Info.plist */,
+				D339B8AD0C3E140C731558B8E3110EA3 /* LYZStatistic-prefix.pch */,
+				8A191DB030AA950BCA308DAA9804102D /* LYZStatistic-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LYZStatistic";
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		582FF0BD419AAF8169029B5756B2B908 /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				B68564700A3F9F43A5759E67C82B8C55 /* standard */,
+				28D1D4B97D25D783035986B73B84348D /* Support Files */,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		7825082F5B0CFE8447B370C1CA5C0BDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */,
+				24DCFCD257C0FEE234FC774171A6B7AB /* LYZStatistic.framework */,
+				221C0EA62C60D56586E168B1620F057E /* Pods_LYZStatistic_Example.framework */,
+				7939312D0364A753245A6B8ED3B12A29 /* Pods_LYZStatistic_Tests.framework */,
+				400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */,
+				612028EAFF1C2054A0EB821A9C9F2440 /* SAMKeychain.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80C8EC0287038B1226EDA12137BE8290 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				814C2BB38461370131F51FAF4E646296 /* SAMKeychain.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8293B5DD3F32AA9A31586989E7BB9E62 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0489DE88A009BADA74C05F62829D433 /* Pods-LYZStatistic_Example */,
+				F0B7C4C77EE20DFE17BBAD2F7E7FAEF8 /* Pods-LYZStatistic_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9C4EEDB73FF1998B8F0F6513CDDCFEC2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1F25755F9F60A7DE28A324CDD6FC76BE /* Foundation.framework */,
+				0A5A392E118E1B41735ED6A61BB4F70B /* Security.framework */,
+				4F813B31D10D0BD662A4839B2ED84B3D /* SystemConfiguration.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		A0489DE88A009BADA74C05F62829D433 /* Pods-LYZStatistic_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3FF4EF520485C4DD16643C0FAD66CD49 /* Pods-LYZStatistic_Example.modulemap */,
+				68C1DA68E00DE63FF9B86AB0CA4838B5 /* Pods-LYZStatistic_Example-acknowledgements.markdown */,
+				991FDD6FFC7D522E35410F7574C46243 /* Pods-LYZStatistic_Example-acknowledgements.plist */,
+				DF6CE46FA15D8984E3FB073BF8BB9501 /* Pods-LYZStatistic_Example-dummy.m */,
+				D340A5F16A2EFA3C824097C5941292EC /* Pods-LYZStatistic_Example-frameworks.sh */,
+				6CD0D1DE7D189749C4842519FB42E968 /* Pods-LYZStatistic_Example-Info.plist */,
+				59195E4D86AF02F1160AB0D9398A84B5 /* Pods-LYZStatistic_Example-umbrella.h */,
+				2CAF4819F872DF1B3D3A8F96D7C04DC9 /* Pods-LYZStatistic_Example.debug.xcconfig */,
+				6BF8940DCD7C44FD03211486A3DC2F8D /* Pods-LYZStatistic_Example.release.xcconfig */,
+			);
+			name = "Pods-LYZStatistic_Example";
+			path = "Target Support Files/Pods-LYZStatistic_Example";
+			sourceTree = "<group>";
+		};
+		AE76B1C02A935B7221E25B11418A947A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				582FF0BD419AAF8169029B5756B2B908 /* FMDB */,
+				CC79EF15B7D5FC6302AD31199AC9A9C9 /* Reachability */,
+				4C45F7FF3D92E0E4CAB63039593B2114 /* SAMKeychain */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B0AE56BCFBA6B60D852055F5CBBDAAA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D98BABE1C385AC0237865CCD997C5CB7 /* FMDB.framework */,
+				1C8459DA32F79DF2C5E6DAED979D7254 /* Reachability.framework */,
+				76BDCCB628EB357F67BAD853E9D98537 /* SAMKeychain.framework */,
+				9C4EEDB73FF1998B8F0F6513CDDCFEC2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B68564700A3F9F43A5759E67C82B8C55 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				DE1D78C84894EDE57A005D5F7FF2901E /* FMDatabase.h */,
+				250CCA9A3C5BD04939601150BC94C3E0 /* FMDatabase.m */,
+				CECE888F0706A3F779B62C9389270A3E /* FMDatabaseAdditions.h */,
+				7ABCF6E17986D273705129447498C333 /* FMDatabaseAdditions.m */,
+				CE2B59D7523FE41BBDA05F51ACC3BE1E /* FMDatabasePool.h */,
+				0C3194A9EBD9AA5919AE6307CA8905E8 /* FMDatabasePool.m */,
+				F0EC09012C8C95BD20D26535F64DB68B /* FMDatabaseQueue.h */,
+				9C55DB32631F92FED5252EEC20822F3D /* FMDatabaseQueue.m */,
+				A3A1D00D45195804B36D024A3ED79B16 /* FMDB.h */,
+				E00CF645E6B0A42ADBE2D8C74CB4D718 /* FMResultSet.h */,
+				B7DDDD3C02213D89583150EEC3CEA0B9 /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		C6B50097C32A71262D7FFE3C16B5A215 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A80C59675484A3FCB2E369130ABBA66 /* Reachability.modulemap */,
+				41D77DD83C65E0CB28CF3F1C7729DB31 /* Reachability.xcconfig */,
+				24C71BEC0AFF1184C71C3DAD35D343B2 /* Reachability-dummy.m */,
+				CCB8C0F52022704F046CB47FB37DB35B /* Reachability-Info.plist */,
+				45D671982DE19E06371AC13653F8F6C9 /* Reachability-prefix.pch */,
+				0CB99C93673204B4F0DE653B9D4B760B /* Reachability-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
 			sourceTree = "<group>";
 		};
 		C9E050003321A496F98BE4AEC6615355 /* LYZStatistic */ = {
@@ -199,10 +434,21 @@
 				751AAB33030857C4179D7896C5BBD2E1 /* LYZRootObject.h */,
 				D30524B6519D52FB6F49830F73E85473 /* LYZRootObject.m */,
 				3A8489933DF9D1215C4A881B510E1108 /* Pod */,
-				9475D31B71AE114E1E70414FDB40011E /* Support Files */,
+				4D7C70809E235542C8810755DECE4A83 /* Support Files */,
 			);
 			name = LYZStatistic;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		CC79EF15B7D5FC6302AD31199AC9A9C9 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				7BFF6B81BD7A0467132E0F5C08FCA54F /* Reachability.h */,
+				E93E0F8302CA5551DC32B1C4DC637B3D /* Reachability.m */,
+				C6B50097C32A71262D7FFE3C16B5A215 /* Support Files */,
+			);
+			name = Reachability;
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -210,105 +456,221 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				2F467F03E0871A6708B5BF3AC39BAC24 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				78A68D8592DE49926B74057F23DE12BA /* Products */,
+				B0AE56BCFBA6B60D852055F5CBBDAAA6 /* Frameworks */,
+				AE76B1C02A935B7221E25B11418A947A /* Pods */,
+				7825082F5B0CFE8447B370C1CA5C0BDF /* Products */,
 				8293B5DD3F32AA9A31586989E7BB9E62 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D7E054C8C55962C3C0AE18F5B4BDC340 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				4B8A3EDAFF8410904F078F48594D05FA /* SAMKeychain.modulemap */,
+				55045FCB3BD1A33AAD09AFF7A74C0287 /* SAMKeychain.xcconfig */,
+				68AADF2ADC275559FC973BA30C6DD739 /* SAMKeychain-dummy.m */,
+				310316DAE864CB94566198A0BC876A31 /* SAMKeychain-Info.plist */,
+				28F91022592DE6FB2C1442DA30BE4FDA /* SAMKeychain-prefix.pch */,
+				DCB0557F9E1104FBF0049B6ADCD29028 /* SAMKeychain-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/SAMKeychain";
+			sourceTree = "<group>";
+		};
+		F0B7C4C77EE20DFE17BBAD2F7E7FAEF8 /* Pods-LYZStatistic_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B2A24B1D53A4E6659CD8F57A7CD7ED61 /* Pods-LYZStatistic_Tests.modulemap */,
+				F891CEC8E55501138EBD9CE187BFF1B2 /* Pods-LYZStatistic_Tests-acknowledgements.markdown */,
+				3DBE60EB635B3BD16AE462DC433D2C56 /* Pods-LYZStatistic_Tests-acknowledgements.plist */,
+				54C47679A769023F5545334EF2F3B7AF /* Pods-LYZStatistic_Tests-dummy.m */,
+				C40BD357AC92C343272F1C7D7FF09C42 /* Pods-LYZStatistic_Tests-Info.plist */,
+				FF617AF13C58D3A215CC1BA09E496C0E /* Pods-LYZStatistic_Tests-umbrella.h */,
+				95F63A5ED2EA5433A15372DB27AB1DA5 /* Pods-LYZStatistic_Tests.debug.xcconfig */,
+				C734609E35FBE9CF0A49150F23043361 /* Pods-LYZStatistic_Tests.release.xcconfig */,
+			);
+			name = "Pods-LYZStatistic_Tests";
+			path = "Target Support Files/Pods-LYZStatistic_Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		48070896B6569BA01619CCB7E2F52CB5 /* Headers */ = {
+		032028F5E9B5435D9E0E7C0ED123DC65 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC9AA5EAC524F5FDA9FBCFDD50E35193 /* Pods-LYZStatistic_Example-umbrella.h in Headers */,
+				2F1B1D765D6DACEB0C4B838E2C19A3DE /* LYZRootObject.h in Headers */,
+				8A6BF90870F7F33B917DD5C747C36DC3 /* LYZStatistic-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FEFC357890A442D7422B8B045BEF4B0 /* Headers */ = {
+		038F1A5CA8E98E9D2ACB7773EE524CEE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A98472A63082127328A2369378F3D362 /* Pods-LYZStatistic_Tests-umbrella.h in Headers */,
+				488C55A67714732E1E46E51D47ED33A7 /* Pods-LYZStatistic_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D075682E93B43A47323EB5278BE8740 /* Headers */ = {
+		6184329750EE0FCBB8F01F10BEC87444 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EFD998188BA56D7C683F088E285E760 /* LYZRootObject.h in Headers */,
-				C069BC19E25FD876361BF2C21D36586C /* LYZStatistic-umbrella.h in Headers */,
+				3FAC5E2B11C71F52A229F715168D5CD0 /* Pods-LYZStatistic_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651849F17376292695B7FD36FE09D0A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B13CAA3CF75D527732EAF4E55B8746 /* SAMKeychain-umbrella.h in Headers */,
+				0EF874712EFA446F37BE317FA744E9E9 /* SAMKeychain.h in Headers */,
+				77CD9DF9CCC3DA4A6C4CAE6765609D18 /* SAMKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB7F8D5F7F21D03EBC6EAEB84A72614 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9707760741C6562686A2B87D086F354F /* Reachability-umbrella.h in Headers */,
+				03BF1896EC9BB2BA807B6EA31733CE0E /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCC73753CB120F68D482DBCD2F11BB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37296B38A55A40BEF65ECFC9B0527D8E /* FMDatabase.h in Headers */,
+				538F74CC22D0D13E9D79AC3ECC6DFFE7 /* FMDatabaseAdditions.h in Headers */,
+				0F72AA9F03EC61C6D857941E0B45811A /* FMDatabasePool.h in Headers */,
+				7394E123FBD9832A5D6FD726D5D9470C /* FMDatabaseQueue.h in Headers */,
+				219BADA8C55CF72273F5A734AA0E0EF6 /* FMDB-umbrella.h in Headers */,
+				A92CDCFE2DC0D002DE1F208C2FEAB545 /* FMDB.h in Headers */,
+				BB7ECF4DBE8D4BB38E6F2F08C326922A /* FMResultSet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3FACE7071BF3CB7971D185A18FC17D89 /* Pods-LYZStatistic_Example */ = {
+		20A04F690C8428A852ADCC3930F9F025 /* LYZStatistic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CACDEC58B4F35169B0298226916982EF /* Build configuration list for PBXNativeTarget "Pods-LYZStatistic_Example" */;
+			buildConfigurationList = F56A0BC51D69D60009329189BBA542BD /* Build configuration list for PBXNativeTarget "LYZStatistic" */;
 			buildPhases = (
-				48070896B6569BA01619CCB7E2F52CB5 /* Headers */,
-				5D411E31167B8F9C37C5E26E50645325 /* Sources */,
-				91E52E11C1BE4BC278AE95B2833BCF20 /* Frameworks */,
-				02DA6A6E6AC00743C455E3FF00D36153 /* Resources */,
+				032028F5E9B5435D9E0E7C0ED123DC65 /* Headers */,
+				4EEE41DAA6D9A5408CCAD377166137F8 /* Sources */,
+				E7C47FD753D7953A849A797AB436C720 /* Frameworks */,
+				968A182E202BF83C4CDE30E3D5473622 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0B00CF215C2AD44355C05B0684386A6B /* PBXTargetDependency */,
-			);
-			name = "Pods-LYZStatistic_Example";
-			productName = "Pods-LYZStatistic_Example";
-			productReference = F5492AE61FBA82BDE43960B6157FA94F /* Pods_LYZStatistic_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5A03A0D2A3D9F8E35D0430AB34C745C4 /* Pods-LYZStatistic_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2F9862512DE20D57205BF305764D9569 /* Build configuration list for PBXNativeTarget "Pods-LYZStatistic_Tests" */;
-			buildPhases = (
-				6FEFC357890A442D7422B8B045BEF4B0 /* Headers */,
-				60049A82A3AFFFE295377BB31ADA3FAE /* Sources */,
-				D816648775F69621A61958E08E35866C /* Frameworks */,
-				F3E552B9BEC08A14925343F4DE4ACE22 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4AA9119A0A30FF27BEDC6E0CF6891F15 /* PBXTargetDependency */,
-			);
-			name = "Pods-LYZStatistic_Tests";
-			productName = "Pods-LYZStatistic_Tests";
-			productReference = DE9AE4F1EA6558C092BE8169C2EC4DA0 /* Pods_LYZStatistic_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D403795BC6BDF2678BFAD8E740225653 /* LYZStatistic */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A290ACFDE0DC9D45C165DD1BDF8E8F0C /* Build configuration list for PBXNativeTarget "LYZStatistic" */;
-			buildPhases = (
-				8D075682E93B43A47323EB5278BE8740 /* Headers */,
-				E61120519F111B751A250CD6BFE2AB31 /* Sources */,
-				8155066F7A3D5D6C49F230797030A579 /* Frameworks */,
-				AD327328182DF7763468E6BF7E04012A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				6D468A03E62A3636C126DD4B572DEF5E /* PBXTargetDependency */,
+				D94432A71D091AED3AA8D635F0FDAAF9 /* PBXTargetDependency */,
+				EDA478F5963AE3F974AE7A688B6A3F16 /* PBXTargetDependency */,
 			);
 			name = LYZStatistic;
 			productName = LYZStatistic;
-			productReference = 7F289B473F50A006913E6D670783E3C1 /* LYZStatistic.framework */;
+			productReference = 24DCFCD257C0FEE234FC774171A6B7AB /* LYZStatistic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91358C1ECA750383D069328AB373DFC5 /* Build configuration list for PBXNativeTarget "SAMKeychain" */;
+			buildPhases = (
+				651849F17376292695B7FD36FE09D0A7 /* Headers */,
+				6F6F61EBFEA2F2FB528FCBB95095ACE4 /* Sources */,
+				37BFF695AAA8971C24E3AAE745EF456E /* Frameworks */,
+				5B5C0986909AC974DEB747D253CE41DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAMKeychain;
+			productName = SAMKeychain;
+			productReference = 612028EAFF1C2054A0EB821A9C9F2440 /* SAMKeychain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8592E0E389D40AC17881400ADC67ABC0 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1CF8B84020151C94CD4280C9C11ED5 /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				DCCC73753CB120F68D482DBCD2F11BB6 /* Headers */,
+				7E0D56167C29831E3033100E4A70F3B9 /* Sources */,
+				41E857D338F96D89E73F6E28241F0A8B /* Frameworks */,
+				2B6B314F2508F3A29CC15F9D75CB5E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A05402800739B38A26BCA09B6DA086F6 /* Pods-LYZStatistic_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9181C1BE628DCBE9C8D553763E86657D /* Build configuration list for PBXNativeTarget "Pods-LYZStatistic_Example" */;
+			buildPhases = (
+				6184329750EE0FCBB8F01F10BEC87444 /* Headers */,
+				D5CAF0E0A23AE7C254CDC6BAC128CB45 /* Sources */,
+				CADEF34E7137205A6ABD507576F0A734 /* Frameworks */,
+				A9E270B15DD4CB8D52E669B665EFC271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC179C1873FAAF7604ED842B23CA87C6 /* PBXTargetDependency */,
+				8554DB06EDA618E5091F837EE33739E9 /* PBXTargetDependency */,
+				177248F47DEF5486E8151F744941BC65 /* PBXTargetDependency */,
+				A9FF571996CD0F566869C81150854A61 /* PBXTargetDependency */,
+			);
+			name = "Pods-LYZStatistic_Example";
+			productName = "Pods-LYZStatistic_Example";
+			productReference = 221C0EA62C60D56586E168B1620F057E /* Pods_LYZStatistic_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22FE532F086AD80DDEBD8EAD8A47312 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				6EB7F8D5F7F21D03EBC6EAEB84A72614 /* Headers */,
+				1A02E553B2C36F85736C19B0979760A7 /* Sources */,
+				F5A740751E83EF79A4E6A6F4E9F1CC35 /* Frameworks */,
+				474964476779443798111A3C73DA885A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = 400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE8FA57483A14BFBB9D4571D93B6628C /* Pods-LYZStatistic_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C3AFDA61B623B37BC9403852B165ADE /* Build configuration list for PBXNativeTarget "Pods-LYZStatistic_Tests" */;
+			buildPhases = (
+				038F1A5CA8E98E9D2ACB7773EE524CEE /* Headers */,
+				97C7FF0035BF90BD57E38268AD0D385A /* Sources */,
+				6A317D07C9498CBC80B8868E714E3695 /* Frameworks */,
+				0D58D6C734A1F8E6525C6623B3BBB20F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B2AFCD01B80BABE1D7A8E3470FF67EC /* PBXTargetDependency */,
+			);
+			name = "Pods-LYZStatistic_Tests";
+			productName = "Pods-LYZStatistic_Tests";
+			productReference = 7939312D0364A753245A6B8ED3B12A29 /* Pods_LYZStatistic_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -317,44 +679,69 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 78A68D8592DE49926B74057F23DE12BA /* Products */;
+			productRefGroup = 7825082F5B0CFE8447B370C1CA5C0BDF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D403795BC6BDF2678BFAD8E740225653 /* LYZStatistic */,
-				3FACE7071BF3CB7971D185A18FC17D89 /* Pods-LYZStatistic_Example */,
-				5A03A0D2A3D9F8E35D0430AB34C745C4 /* Pods-LYZStatistic_Tests */,
+				8592E0E389D40AC17881400ADC67ABC0 /* FMDB */,
+				20A04F690C8428A852ADCC3930F9F025 /* LYZStatistic */,
+				A05402800739B38A26BCA09B6DA086F6 /* Pods-LYZStatistic_Example */,
+				EE8FA57483A14BFBB9D4571D93B6628C /* Pods-LYZStatistic_Tests */,
+				CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */,
+				5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		02DA6A6E6AC00743C455E3FF00D36153 /* Resources */ = {
+		0D58D6C734A1F8E6525C6623B3BBB20F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD327328182DF7763468E6BF7E04012A /* Resources */ = {
+		2B6B314F2508F3A29CC15F9D75CB5E33 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3E552B9BEC08A14925343F4DE4ACE22 /* Resources */ = {
+		474964476779443798111A3C73DA885A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5C0986909AC974DEB747D253CE41DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7BD63344392A9095BD21154AA2F227 /* SAMKeychain.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968A182E202BF83C4CDE30E3D5473622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E270B15DD4CB8D52E669B665EFC271 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,50 +751,215 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5D411E31167B8F9C37C5E26E50645325 /* Sources */ = {
+		1A02E553B2C36F85736C19B0979760A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F66A03893375E008A552B80870E4F88 /* Pods-LYZStatistic_Example-dummy.m in Sources */,
+				80DDDD4D1F2E6E175DE8D0825A8A512C /* Reachability-dummy.m in Sources */,
+				9E9FE2C615F59EB8FC8218CEE722AA0D /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60049A82A3AFFFE295377BB31ADA3FAE /* Sources */ = {
+		4EEE41DAA6D9A5408CCAD377166137F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D748EAF9ED9550188D1383CE68262055 /* Pods-LYZStatistic_Tests-dummy.m in Sources */,
+				856A75E9941F5735435FB8C418DA1E1D /* LYZRootObject.m in Sources */,
+				DFC3143398C4C18081F28F176D101C18 /* LYZStatistic-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E61120519F111B751A250CD6BFE2AB31 /* Sources */ = {
+		6F6F61EBFEA2F2FB528FCBB95095ACE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DDF50DA759184068BACE30B2266A855 /* LYZRootObject.m in Sources */,
-				D054EF7ED6529D741BACDE2F847F535F /* LYZStatistic-dummy.m in Sources */,
+				4B38C5C798B25817CF768AA0848C1BA1 /* SAMKeychain-dummy.m in Sources */,
+				F8BC228314DF9A9A67FCEC485324414D /* SAMKeychain.m in Sources */,
+				2680355CBA8DF8018650C425EEB48545 /* SAMKeychainQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0D56167C29831E3033100E4A70F3B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C58288FB8A294C16676BF03E51AA34D /* FMDatabase.m in Sources */,
+				0C93E589E31C5CBCA37586544BEC1005 /* FMDatabaseAdditions.m in Sources */,
+				0370787809FDCBCB15C2D4DD22190732 /* FMDatabasePool.m in Sources */,
+				0CA022FE5CC3F8A1ECC6699F10BF81EE /* FMDatabaseQueue.m in Sources */,
+				7D4E0D91FE60904C9FB50F6D447B8A30 /* FMDB-dummy.m in Sources */,
+				FDD8729FB9BBE45B90107CA26BE5804B /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C7FF0035BF90BD57E38268AD0D385A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BB549C41D99703004B92995896F1C7 /* Pods-LYZStatistic_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5CAF0E0A23AE7C254CDC6BAC128CB45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FF2E7824F1E6ED208A3CA6727F2497 /* Pods-LYZStatistic_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B00CF215C2AD44355C05B0684386A6B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LYZStatistic;
-			target = D403795BC6BDF2678BFAD8E740225653 /* LYZStatistic */;
-			targetProxy = 57934089E40DCF2849FB6340CA8EC223 /* PBXContainerItemProxy */;
-		};
-		4AA9119A0A30FF27BEDC6E0CF6891F15 /* PBXTargetDependency */ = {
+		0B2AFCD01B80BABE1D7A8E3470FF67EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LYZStatistic_Example";
-			target = 3FACE7071BF3CB7971D185A18FC17D89 /* Pods-LYZStatistic_Example */;
-			targetProxy = B050CBDD06A2B8012DDB44E741900A0B /* PBXContainerItemProxy */;
+			target = A05402800739B38A26BCA09B6DA086F6 /* Pods-LYZStatistic_Example */;
+			targetProxy = 83CBFFF31A19685705C3B6B0154F9DF0 /* PBXContainerItemProxy */;
+		};
+		177248F47DEF5486E8151F744941BC65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */;
+			targetProxy = E7763E3B1E824F84A7351CE4C8D00040 /* PBXContainerItemProxy */;
+		};
+		6D468A03E62A3636C126DD4B572DEF5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = 676BE4913B58AE3899D244FAE831578D /* PBXContainerItemProxy */;
+		};
+		8554DB06EDA618E5091F837EE33739E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LYZStatistic;
+			target = 20A04F690C8428A852ADCC3930F9F025 /* LYZStatistic */;
+			targetProxy = 92CFD22530DE0162C062E5AC7F5EEFD1 /* PBXContainerItemProxy */;
+		};
+		A9FF571996CD0F566869C81150854A61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = 5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */;
+			targetProxy = 657D0F687161258B67E536CF2E37F27D /* PBXContainerItemProxy */;
+		};
+		AC179C1873FAAF7604ED842B23CA87C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = B6DBBE0A1668B1463E67A9CD5E5EB66E /* PBXContainerItemProxy */;
+		};
+		D94432A71D091AED3AA8D635F0FDAAF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */;
+			targetProxy = 9EFE60974688B6A12D3720FF60FC8FF4 /* PBXContainerItemProxy */;
+		};
+		EDA478F5963AE3F974AE7A688B6A3F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = 5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */;
+			targetProxy = 522F0C1B41B022E03E1359AC3ED1491B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+		0698EA1968F74B5EFDA82B528267FE81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CA88BFE029914199615E32DFC15AB6C /* LYZStatistic.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LYZStatistic/LYZStatistic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LYZStatistic/LYZStatistic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LYZStatistic/LYZStatistic.modulemap";
+				PRODUCT_MODULE_NAME = LYZStatistic;
+				PRODUCT_NAME = LYZStatistic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B5B831F4DB9D232C8E4A833E775F852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C734609E35FBE9CF0A49150F23043361 /* Pods-LYZStatistic_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LYZStatistic_Tests/Pods-LYZStatistic_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYZStatistic_Tests/Pods-LYZStatistic_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3437B39F06D24440FDA2EB8D4991F15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CA88BFE029914199615E32DFC15AB6C /* LYZStatistic.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LYZStatistic/LYZStatistic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LYZStatistic/LYZStatistic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LYZStatistic/LYZStatistic.modulemap";
+				PRODUCT_MODULE_NAME = LYZStatistic;
+				PRODUCT_NAME = LYZStatistic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -462,14 +1014,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		1C1230A1D2470C8A992E8EC8E7D03076 /* Debug */ = {
+		4F65528ED62BF69968197599A3047527 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45B3A475E2F9177512FB2D4CD65FE931 /* LYZStatistic.xcconfig */;
+			baseConfigurationReference = 04F8690DE11E6790DF4AF100DBED266C /* FMDB.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -480,14 +1032,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LYZStatistic/LYZStatistic-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LYZStatistic/LYZStatistic-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LYZStatistic/LYZStatistic.modulemap";
-				PRODUCT_MODULE_NAME = LYZStatistic;
-				PRODUCT_NAME = LYZStatistic;
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -498,7 +1050,104 @@
 			};
 			name = Debug;
 		};
-		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+		5821DC26F925B9EBB13833B95FB62487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D77DD83C65E0CB28CF3F1C7729DB31 /* Reachability.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Reachability-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		626CA588E1ABB04C75E6F23DC9875954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BF8940DCD7C44FD03211486A3DC2F8D /* Pods-LYZStatistic_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LYZStatistic_Example/Pods-LYZStatistic_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYZStatistic_Example/Pods-LYZStatistic_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BC44E6EACC49419ACB0D6B0AEC8EF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F8690DE11E6790DF4AF100DBED266C /* FMDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -557,16 +1206,15 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		51C2780B573B7EEC718103988291D185 /* Release */ = {
+		CD988323C27F83E40A1AB47FBD6F0DC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85B5239256EE8E7B91076D9A3ACC3F29 /* Pods-LYZStatistic_Tests.release.xcconfig */;
+			baseConfigurationReference = 55045FCB3BD1A33AAD09AFF7A74C0287 /* SAMKeychain.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -576,29 +1224,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LYZStatistic_Tests/Pods-LYZStatistic_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAMKeychain/SAMKeychain-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LYZStatistic_Tests/Pods-LYZStatistic_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SAMKeychain/SAMKeychain.modulemap";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		51D4676A43FA2E63359A457A93F31B31 /* Debug */ = {
+		DEA4055DDE7D678B804A0D090C9EB47B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DF120588782583C2EE17FA7375A5420 /* Pods-LYZStatistic_Tests.debug.xcconfig */;
+			baseConfigurationReference = 95F63A5ED2EA5433A15372DB27AB1DA5 /* Pods-LYZStatistic_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -629,9 +1275,9 @@
 			};
 			name = Debug;
 		};
-		607DA9FAA9817C57CEC62A0FE9929F44 /* Release */ = {
+		E804AE10D822CB5ACB5A1058FF1866F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45B3A475E2F9177512FB2D4CD65FE931 /* LYZStatistic.xcconfig */;
+			baseConfigurationReference = 55045FCB3BD1A33AAD09AFF7A74C0287 /* SAMKeychain.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -642,14 +1288,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LYZStatistic/LYZStatistic-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LYZStatistic/LYZStatistic-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAMKeychain/SAMKeychain-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LYZStatistic/LYZStatistic.modulemap";
-				PRODUCT_MODULE_NAME = LYZStatistic;
-				PRODUCT_NAME = LYZStatistic;
+				MODULEMAP_FILE = "Target Support Files/SAMKeychain/SAMKeychain.modulemap";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -661,43 +1307,9 @@
 			};
 			name = Release;
 		};
-		75B6E171D34D5761AD8473213AD44260 /* Release */ = {
+		EC1FC7EEF02E3D1556672684406672EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D4FDA4C6C00918D1AF10BB01809ED62 /* Pods-LYZStatistic_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LYZStatistic_Example/Pods-LYZStatistic_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LYZStatistic_Example/Pods-LYZStatistic_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ACB6B483506088077CF87B75D710AB91 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 120239E1CEBBB0C2A792FBC5AAD95303 /* Pods-LYZStatistic_Example.debug.xcconfig */;
+			baseConfigurationReference = 2CAF4819F872DF1B3D3A8F96D7C04DC9 /* Pods-LYZStatistic_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -728,41 +1340,100 @@
 			};
 			name = Debug;
 		};
+		F15EB2A9BD6AB5D321BED5306DCDAE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D77DD83C65E0CB28CF3F1C7729DB31 /* Reachability.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Reachability-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F9862512DE20D57205BF305764D9569 /* Build configuration list for PBXNativeTarget "Pods-LYZStatistic_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				51D4676A43FA2E63359A457A93F31B31 /* Debug */,
-				51C2780B573B7EEC718103988291D185 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
-				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A290ACFDE0DC9D45C165DD1BDF8E8F0C /* Build configuration list for PBXNativeTarget "LYZStatistic" */ = {
+		5C3AFDA61B623B37BC9403852B165ADE /* Build configuration list for PBXNativeTarget "Pods-LYZStatistic_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C1230A1D2470C8A992E8EC8E7D03076 /* Debug */,
-				607DA9FAA9817C57CEC62A0FE9929F44 /* Release */,
+				DEA4055DDE7D678B804A0D090C9EB47B /* Debug */,
+				2B5B831F4DB9D232C8E4A833E775F852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CACDEC58B4F35169B0298226916982EF /* Build configuration list for PBXNativeTarget "Pods-LYZStatistic_Example" */ = {
+		91358C1ECA750383D069328AB373DFC5 /* Build configuration list for PBXNativeTarget "SAMKeychain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACB6B483506088077CF87B75D710AB91 /* Debug */,
-				75B6E171D34D5761AD8473213AD44260 /* Release */,
+				CD988323C27F83E40A1AB47FBD6F0DC8 /* Debug */,
+				E804AE10D822CB5ACB5A1058FF1866F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9181C1BE628DCBE9C8D553763E86657D /* Build configuration list for PBXNativeTarget "Pods-LYZStatistic_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1FC7EEF02E3D1556672684406672EF /* Debug */,
+				626CA588E1ABB04C75E6F23DC9875954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22FE532F086AD80DDEBD8EAD8A47312 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5821DC26F925B9EBB13833B95FB62487 /* Debug */,
+				F15EB2A9BD6AB5D321BED5306DCDAE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1CF8B84020151C94CD4280C9C11ED5 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F65528ED62BF69968197599A3047527 /* Debug */,
+				6BC44E6EACC49419ACB0D6B0AEC8EF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56A0BC51D69D60009329189BBA542BD /* Build configuration list for PBXNativeTarget "LYZStatistic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3437B39F06D24440FDA2EB8D4991F15B /* Debug */,
+				0698EA1968F74B5EFDA82B528267FE81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

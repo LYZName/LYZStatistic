@@ -9,4 +9,7 @@
 
 @implementation LYZRootObject
 
++ (void)sayHello {
+    NSLog(@"hello");
+}
 @end
